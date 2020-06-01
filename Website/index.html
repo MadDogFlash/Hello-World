@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Portfolio Website </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+        
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Raciel Diaz</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
+            <img src="img/dev-raciel.png" alt="a picture of Raciel smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Front-End</h3>
+                    <p>From graduating UC Berkeley Extension Full Stack, I have experience when it comes to Front end which allows me to learn HTML5, CSS3, Javascript, NodeJS, Jquery and Bootstrap. On top of those languages I have dabbled in others such as Express, ReactJS, GatsbyJS, VueJS, NextJS, and Expo. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Back-End</h3>
+                    <p>The second half of full stack, back-end led me to learn MongoDb, MySQL, and a favorite for its design, Firebase. It is important to learn back end to better understand how they work in tandem with front end and I valued the experience to touch base upon these important languages.  </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>General IT</h3>
+                    <p>I have proficiency within computers itself to an extent I can offer general basic computer and IT needs. Experience within installing programs, troubleshooting, operating system care, data entry, and computer hardware experience. To add, my typing speed is 85-95 WPM.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based out of Oakland</p>
+           
+           <div class="about-me__body">
+               <p>Fresh out of graduating from UC Berkeley Extension, Raciel is a caregiver and student at Peralta Colleges. Currently completing his transfers studies to transition to the UC College system.   
+               <p>Raciel's passion for technology came at a early age in the early dot-com era being supplied a hot wheels computer with cds of games and programs. Initially a Illustrator Major then Theatre Actor Major , Computer Science Major, and then Business Major, Raciel came to terms with his calling to become a programmer. Switched to Transfer Studies and made the application to start his programmer career with UC Berkeley Extension Full Stack Coding Bootcamp.
+                Excited of whats to come he looks forward to what this new career will bring in experience and opportunity, in the meantime ask about his favorite music and kombucha! </p>
+              
+           </div>
+           
+           <img src="img/dev-raciel 2.png" alt="Raciel at a wedding" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- Portfolio item 05 -->
+                 <a href="Carousel.html" class="portfolio__item">
+                    <img src="img/carousel-item2.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            
+            <a href="mailto:racieldiz@gmail.com" class="footer__link">Email me with any Questions!</a>
+            <ul class="social-list">
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/raciel-diaz/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/RacielDiaz510">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/MadDogFlash">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
